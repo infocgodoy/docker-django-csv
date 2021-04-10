@@ -1,0 +1,25 @@
+{% extends "CsvApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<!-- Heading -->
+
+
+<!-- Message -->
+<section class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <div class="text-center rounded">
+                    <a href="{% url 'Export' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Exportar Csv</a>          
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+
+

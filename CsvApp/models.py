@@ -99,3 +99,6 @@ class MasterProductsConfigurable(models.Model):
     category_14_2 = models.IntegerField(blank=True, null=True)
     category_14_3 = models.IntegerField(blank=True, null=True)
     attribute_beauty = models.TextField(blank=True, null=True)
+
+    def __str__(self):
+        return 'Model %s, Name %s' % (self.model, self.name)

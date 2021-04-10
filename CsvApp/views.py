@@ -26,7 +26,7 @@ def export(request):
     # cabecera fin
     # cuerpo inicio
     for member in cur:
-        print(member)
+        #print(member)
         writer.writerow(member)    
     # cuerpo fin
 

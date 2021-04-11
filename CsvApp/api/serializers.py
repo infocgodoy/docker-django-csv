@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from CsvApp.models import MasterProductsConfigurable
+from CsvApp.models import MasterProductsConfigurable 
 
 class MasterProductsConfigurableSerializer(serializers.ModelSerializer):
     class Meta:

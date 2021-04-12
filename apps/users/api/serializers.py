@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from apps.users.models import User,MasterProductsConfigurable
+from apps.users.models import User
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:

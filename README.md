@@ -3,6 +3,9 @@
 Se ocupo Docker para montar el ambiente de desarrollo.
 [![Try in PWD](https://github.com/play-with-docker/stacks/raw/cff22438cb4195ace27f9b15784bbb497047afa7/assets/images/button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/nextcloud/docker/8db861d67f257a3e9ac1790ea06d4e2a7a193a6c/stack.yml)
 
+> El proyecto esta versionado utilizando git
+
+
 ####Requerimientos
                 
 + 1 Crear un comando personalizado de django que genere el fichero csv con el formato descrito anteriormente

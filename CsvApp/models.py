@@ -102,11 +102,9 @@ class MasterProductsConfigurable(models.Model):
 
     class Meta:
         verbose_name = 'Producto'
-        verbose_name_plural = 'Producto'
+        verbose_name_plural = 'Productos'
 
-    USERNAME_FIELD = 'username'
     REQUIRED_FIELDS = ['name','sku','price']
 
     def __str__(self):
         return f'{self.name} {self.sku}'
-        

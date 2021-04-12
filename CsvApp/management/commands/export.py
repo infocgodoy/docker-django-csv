@@ -32,5 +32,5 @@ class Command(BaseCommand):
                 #print(member)
                 writer.writerow(member)    
             # cuerpo fin
-    
+        
         self.stdout.write("El archivo se creo en el directorio raiz y su nombre es Csv.csv")

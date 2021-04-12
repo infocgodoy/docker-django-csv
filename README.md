@@ -16,6 +16,8 @@ Se ocupo Docker para montar el ambiente de desarrollo.
 
 ##Manual de navegacion de APP
 
+Al escribir en consola **python manage.py export** se exportara el fichero csv a la carpeta raiz del proyecto. 
+
 Desde el localhost se podra navegar por un menu de dos opciones:
 
 + INICIO
@@ -23,11 +25,12 @@ Desde el localhost se podra navegar por un menu de dos opciones:
 
 Donde **INICIO** nos llevara a un boton que EXPORTARA el csv formateado como el ejemplo del output esperado.
 
-Esto lo hace gracias a un cursor que lo podemos encontrar en la funcion export hubicada en 
-docker-django-csv\CsvApp\views.py
+Esto lo hace gracias a un cursor que lo podemos encontrar en la funcion hubicada en: 
 
-La opcion **SERVICIOS** desplegara un boton que nos llevara directo a un endpoint creado con **Django Rest Framework** y si, es la cumbia, el endpoint tiene el CRUD completo **PERO PERO PERO** para un modelo User por que tuve problemas con el que enviaron.
+CsvApp\management\commands\export.py
 
-Ahora estoy buscando documentacion para Custom Django Management, si bien se como crear un comando personalizado, no puedo encontrar la forma de que cree un fichero csv, encontre algunas formas en las cuales abre un csv que se encuentra **commands** lo edita y luego lo cierra. Esperemos que esto cambie de hoy Domingo 11 hasta mañana lunes 12.
+### Al desplegarlo desde el boton "Exportar Csv" el programa se cae pero si logra exportar 😔
+
+La opcion **SERVICIOS** desplegara un boton que nos llevara directo a un endpoint creado con **Django Rest Framework** y si, es la cumbia, lo deje programado para que diera todo **status** correctamente, el endpoint tiene el CRUD completo **PERO PERO PERO**  😔 para un modelo User por que tuve problemas con el que enviaron.
 
 ##Gracias por la oportunidad
